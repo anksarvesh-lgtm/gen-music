@@ -166,11 +166,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           
           <div className="space-y-4 max-w-2xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.08] font-heading text-balance">
-              Free music for every mood
+              Pure Music Streaming. Zero Ads.
             </h1>
 
             <p className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-xl font-normal">
-              Stream millions of songs with offline 320kbps MP3 downloads, studio EQ, and zero subscription fees.
+              A modern Android music app leveraging YouTube Music's vast catalog — completely ad-free with real-time synchronized lyrics, offline downloads, Listen Together, and retro iPod mode.
             </p>
           </div>
 
@@ -237,70 +237,13 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 <div className="w-10 h-1 bg-slate-800 rounded-full" />
               </div>
 
-              {/* Player UI */}
-              <div className="space-y-4">
-                
-                {/* Album Art Frame */}
-                <div className="relative aspect-square w-full rounded-2xl overflow-hidden bg-gradient-to-br from-slate-800 via-slate-900 to-sky-950 border border-white/10 flex items-center justify-center p-6 group">
-                  <div className="text-center space-y-2 relative z-10">
-                    <div className="w-16 h-16 rounded-2xl bg-sky-500/10 border border-sky-400/20 text-sky-400 mx-auto flex items-center justify-center shadow-inner">
-                      <Volume2 className="w-8 h-8" />
-                    </div>
-                    <div className="text-xs font-mono uppercase tracking-wider text-sky-300 font-bold">
-                      Dolby 3D Spatial
-                    </div>
-                  </div>
-
-                  {/* Top-right audio bit-rate badge */}
-                  <div className="absolute top-3 right-3 px-2 py-0.5 rounded-md bg-black/60 border border-white/10 text-[10px] font-mono text-slate-300">
-                    320kbps Lossless
-                  </div>
-                </div>
-
-                {/* Track Title & Artist */}
-                <div className="flex items-center justify-between">
-                  <div className="min-w-0">
-                    <h3 className="text-sm font-bold text-white truncate font-heading">
-                      Midnight Resonance
-                    </h3>
-                    <p className="text-xs text-slate-400 truncate">
-                      GEN Spatial Symphony · Lossless
-                    </p>
-                  </div>
-                  <button
-                    onClick={() => setIsPlayingMockup(!isPlayingMockup)}
-                    className="p-2 rounded-full bg-sky-500 hover:bg-sky-400 text-slate-950 transition-colors cursor-pointer shrink-0"
-                    aria-label={isPlayingMockup ? 'Pause equalizer demo' : 'Play equalizer demo'}
-                  >
-                    {isPlayingMockup ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4 ml-0.5" />}
-                  </button>
-                </div>
-
-                {/* Scrubber bar */}
-                <div className="space-y-1">
-                  <div className="w-full h-1.5 bg-slate-800 rounded-full overflow-hidden">
-                    <div className="h-full bg-sky-400 rounded-full w-2/3" />
-                  </div>
-                  <div className="flex justify-between text-[10px] text-slate-500 font-mono">
-                    <span>2:18</span>
-                    <span>3:45</span>
-                  </div>
-                </div>
-
-                {/* Live Subtle Animated Equalizer Canvas */}
-                <div className="pt-1">
-                  <div className="flex items-center justify-between text-[11px] text-slate-400 mb-1.5">
-                    <span className="flex items-center gap-1 font-medium">
-                      <Sliders className="w-3 h-3 text-sky-400" />
-                      Dynamic Equalizer
-                    </span>
-                    <span className="text-[10px] text-sky-400 font-mono">Active</span>
-                  </div>
-                  <div className="h-14 w-full bg-slate-950/60 rounded-xl border border-white/5 p-2 flex items-end">
-                    <canvas ref={canvasRef} className="w-full h-full" />
-                  </div>
-                </div>
-
+              {/* Real App Screenshot Inside Frame */}
+              <div className="relative aspect-[9/19] w-full rounded-2xl overflow-hidden shadow-2xl bg-black border border-white/10">
+                <img
+                  src="/screenshots/Material you music page.png"
+                  alt="GEN Music Material You Player"
+                  className="w-full h-full object-cover object-top"
+                />
               </div>
 
             </div>

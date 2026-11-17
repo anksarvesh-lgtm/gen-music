@@ -35,7 +35,8 @@ export interface AppScreenshot {
   subtitle: string;
   category: string;
   accent: string;
-  mockupContent: 'player' | 'search' | 'equalizer' | 'downloads' | 'moods';
+  imageSrc?: string;
+  mockupContent?: 'player' | 'search' | 'equalizer' | 'downloads' | 'moods' | string;
 }
 
 export interface Track {

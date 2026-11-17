@@ -153,7 +153,17 @@ export const ScreenshotsSection: React.FC = () => {
                 <span className="text-[10px] text-slate-500 font-mono">Player</span>
               </div>
 
-              {/* SCREEN 1: NOW PLAYING */}
+              {currentScreen.imageSrc ? (
+                <div className="w-full flex-1 overflow-hidden rounded-2xl flex items-center justify-center bg-black/60 my-auto">
+                  <img
+                    src={currentScreen.imageSrc}
+                    alt={currentScreen.title}
+                    className="w-full h-full object-cover object-top rounded-2xl shadow-xl"
+                  />
+                </div>
+              ) : (
+                <>
+                  {/* SCREEN 1: NOW PLAYING */}
               {currentScreen.mockupContent === 'player' && (
                 <div className="space-y-3.5 flex-1 flex flex-col justify-between">
                   <div className="flex items-center justify-between text-xs text-slate-400">
@@ -327,6 +337,8 @@ export const ScreenshotsSection: React.FC = () => {
                     ))}
                   </div>
                 </div>
+              )}
+                </>
               )}
 
             </div>
