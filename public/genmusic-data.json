@@ -12,7 +12,7 @@
         "fileSize": "63.8 MB",
         "releaseDate": "September 2026",
         "minSystem": "Android 8.0 or later (Oreo to 15)",
-        "downloadUrl": "https://github.com/agriculture287-hue/gen/releases/download/apk/GEN-Music-v2.0.4.apk",
+        "downloadUrl": "https://github.com/anksarvesh-lgtm/gen-music/releases/download/apk/GEN-Music-v2.0.4.apk",
         "mirrorUrl": "https://t.me/genmusic_apk",
         "architecture": "ARM64-v8a & Universal",
         "badge": "Direct APK",
@@ -198,9 +198,9 @@
     "manifest": {
       "android": {
         "latestVersion": "2.5.0",
-        "downloadUrl": "https://github.com/agriculture287-hue/gen/releases/download/apk/GEN-Music-v2.0.4.apk",
+        "downloadUrl": "https://github.com/anksarvesh-lgtm/gen-music/releases/download/apk/GEN-Music-v2.0.4.apk",
         "minimumVersion": "2.0.0",
-        "blobUrl": "https://github.com/agriculture287-hue/gen/releases/download/apk/GEN-Music-v2.0.4.apk"
+        "blobUrl": "https://github.com/anksarvesh-lgtm/gen-music/releases/download/apk/GEN-Music-v2.0.4.apk"
       },
       "windows": {
         "latestVersion": "2.5.0",
@@ -242,7 +242,7 @@
           "fileSize": "63.8 MB",
           "releaseDate": "September 2026",
           "minSystem": "Android 8.0 or later (Oreo to 15)",
-          "downloadUrl": "https://github.com/agriculture287-hue/gen/releases/download/apk/GEN-Music-v2.5.0.apk",
+          "downloadUrl": "https://github.com/anksarvesh-lgtm/gen-music/releases/download/apk/GEN-Music-v2.5.0.apk",
           "mirrorUrl": "https://t.me/genmusic_apk",
           "architecture": "ARM64-v8a & Universal",
           "badge": "Direct APK",
@@ -428,9 +428,9 @@
       "manifest": {
         "android": {
           "latestVersion": "2.5.0",
-          "downloadUrl": "https://github.com/agriculture287-hue/gen/releases/download/apk/GEN-Music-v2.5.0.apk",
+          "downloadUrl": "https://github.com/anksarvesh-lgtm/gen-music/releases/download/apk/GEN-Music-v2.5.0.apk",
           "minimumVersion": "2.0.0",
-          "blobUrl": "https://github.com/agriculture287-hue/gen/releases/download/apk/GEN-Music-v2.5.0.apk"
+          "blobUrl": "https://github.com/anksarvesh-lgtm/gen-music/releases/download/apk/GEN-Music-v2.5.0.apk"
         },
         "windows": {
           "latestVersion": "2.5.0",
@@ -470,9 +470,9 @@
           "UI enhancements with updated player bar and dark theme contrast"
         ],
         "download_url": {
-          "android": "https://github.com/agriculture287-hue/gen/releases/download/apk/GEN-Music-v2.0.4.apk",
-          "windows": "https://github.com/agriculture287-hue/gen/releases/download/Win/GenMusic-v2.0.0-macOS.dmg",
-          "macos": "https://github.com/agriculture287-hue/gen/releases/download/Win/GenMusic-v2.0.0-macOS.dmg"
+          "android": "https://github.com/anksarvesh-lgtm/gen-music/releases/download/apk/GEN-Music-v2.0.4.apk",
+          "windows": "https://github.com/anksarvesh-lgtm/gen-music/releases/download/Win/GenMusic-v2.0.0-macOS.dmg",
+          "macos": "https://github.com/anksarvesh-lgtm/gen-music/releases/download/Win/GenMusic-v2.0.0-macOS.dmg"
         }
       }
     },
@@ -487,9 +487,9 @@
         "UI enhancements with updated player bar and dark theme contrast"
       ],
       "download_url": {
-        "android": "https://github.com/agriculture287-hue/gen/releases/download/apk/GEN-Music-v2.0.4.apk",
-        "windows": "https://github.com/agriculture287-hue/gen/releases/download/Win/GenMusic-v2.0.0-macOS.dmg",
-        "macos": "https://github.com/agriculture287-hue/gen/releases/download/Win/GenMusic-v2.0.0-macOS.dmg"
+        "android": "https://github.com/anksarvesh-lgtm/gen-music/releases/download/apk/GEN-Music-v2.0.4.apk",
+        "windows": "https://github.com/anksarvesh-lgtm/gen-music/releases/download/Win/GenMusic-v2.0.0-macOS.dmg",
+        "macos": "https://github.com/anksarvesh-lgtm/gen-music/releases/download/Win/GenMusic-v2.0.0-macOS.dmg"
       }
     }
   }

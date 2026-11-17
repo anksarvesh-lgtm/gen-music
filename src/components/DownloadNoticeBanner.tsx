@@ -83,7 +83,7 @@ export const DownloadNoticeBanner: React.FC = () => {
   };
 
   const handleManualDirectDownload = () => {
-    const url = noticeData?.targetUrl || 'https://github.com/agriculture287-hue/gen/releases/download/apk/GEN-Music.apk';
+    const url = noticeData?.targetUrl || 'https://github.com/anksarvesh-lgtm/gen-music/releases/download/apk/GEN-Music.apk';
     const filename = noticeData?.filename || 'GEN-Music.apk';
     executeRealDownload(url, filename, noticeData?.isDeepLink);
     setDownloadSuccessNotice(`Direct download started: ${filename}`);

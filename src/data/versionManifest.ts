@@ -6,7 +6,7 @@ export const DEFAULT_VERSION_MANIFEST: VersionManifest = {
   android: {
     latestVersion: '2.0.4',
     minimumVersion: '1.0.0',
-    downloadUrl: 'https://github.com/agriculture287-hue/gen/releases/download/apk/GEN-Music-v2.0.4.apk',
+    downloadUrl: 'https://github.com/anksarvesh-lgtm/gen-music/releases/download/apk/GEN-Music-v2.0.4.apk',
     fileSize: '24.8 MB',
     sha256: 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855',
     releaseDate: '2026-09-15',

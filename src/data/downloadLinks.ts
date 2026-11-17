@@ -22,7 +22,7 @@ export const DOWNLOAD_LINKS = {
 
   // Android Car/Auto Configuration (.apk)
   androidCar: {
-    downloadUrl: "https://github.com/agriculture287-hue/gen/releases/download/Car_Android/GEN-Music-Car.apk",
+    downloadUrl: "https://github.com/anksarvesh-lgtm/gen-music/releases/download/Car_Android/GEN-Music-Car.apk",
     fileSize: "26.1 MB",
     minSystem: "Android Auto / Android Automotive OS 8.0+",
     architecture: "ARM64 & ARMv7 Universal",
@@ -30,7 +30,7 @@ export const DOWNLOAD_LINKS = {
 
   // Windows Configuration (.exe)
   windows: {
-    downloadUrl: "https://github.com/agriculture287-hue/gen/releases/download/Win/Gen-Music.exe",
+    downloadUrl: "https://github.com/anksarvesh-lgtm/gen-music/releases/download/Win/Gen-Music.exe",
     fileSize: "56.2 MB",
     minSystem: "Windows 10 / 11 (64-bit architecture)",
     architecture: "x64 & ARM64 Architecture",
@@ -38,7 +38,7 @@ export const DOWNLOAD_LINKS = {
 
   // macOS Configuration (.dmg)
   macos: {
-    downloadUrl: "https://github.com/agriculture287-hue/gen/releases/download/mac/Gen-Music.dmg",
+    downloadUrl: "https://github.com/anksarvesh-lgtm/gen-music/releases/download/mac/Gen-Music.dmg",
     fileSize: "68.4 MB",
     minSystem: "macOS 12.0 Monterey or later (Apple Silicon & Intel)",
     architecture: "Universal (Apple Silicon + Intel x86_64)",
