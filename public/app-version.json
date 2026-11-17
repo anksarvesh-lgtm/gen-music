@@ -1,16 +1,17 @@
 {
-  "latest_version": "2.0.9",
+  "latest_version": "2.1.0",
   "min_supported_version": "2.0.0",
   "force_update": false,
   "whats_new": [
-    "Clean YouTube Music recommendation engine with Spotify parity",
-    "Removed bloated multi-provider startup dialogs",
-    "Restored fast, clean search with local and online toggle",
-    "Permanent release signing key (fixes future package conflict issues)"
+    "Full-Screen Interactive iPod Experience with authentic classic chassis",
+    "Functional click wheel with clockwise / anticlockwise navigation & haptics",
+    "Complete touch interaction: tap any menu item, seek on scrub bar, heart favorites",
+    "Dedicated integrated iPod search with keyboard and live results",
+    "Full music suite: Playlists, Artists, Albums, Recently Played, Queue, Equalizer presets"
   ],
   "download_url": {
-    "android": "https://github.com/anksarvesh-lgtm/gen-music/releases/download/v2.0.9/app-universal-gms-release.apk",
-    "windows": "https://genmugic.vercel.app/download/genmusic-setup.exe",
-    "macos": "https://genmugic.vercel.app/download/genmusic.dmg"
+    "android": "https://github.com/anksarvesh-lgtm/gen-music/releases/download/v2.1.0/app-universal-gms-release.apk",
+    "windows": "https://github.com/anksarvesh-lgtm/gen-music/releases/download/v2.1.0/app-universal-gms-release.apk",
+    "macos": "https://github.com/anksarvesh-lgtm/gen-music/releases/download/v2.1.0/app-universal-gms-release.apk"
   }
 }
