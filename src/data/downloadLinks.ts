@@ -7,15 +7,15 @@
 
 export const DOWNLOAD_LINKS = {
   // Current release version displayed to users
-  version: "v2.0.4",
+  version: "v2.0.9",
   
   // Last updated release date info
-  releaseDate: "September 2026",
+  releaseDate: "November 2026",
 
   // Android Configuration (.apk)
   android: {
-    downloadUrl: "https://github.com/agriculture287-hue/gen/releases/download/apk/GEN-Music.apk",
-    fileSize: "24.8 MB",
+    downloadUrl: "https://github.com/anksarvesh-lgtm/gen-music/releases/download/v2.0.9/app-universal-gms-release.apk",
+    fileSize: "124.7 MB",
     minSystem: "Android 8.0 or later (Oreo to Android 15+)",
     architecture: "ARM64-v8a & Universal (All Devices)",
   },

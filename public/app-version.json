@@ -1,10 +1,15 @@
 {
-  "latest_version": "2.5.0",
+  "latest_version": "2.0.9",
   "min_supported_version": "2.0.0",
   "force_update": false,
-  "whats_new": [],
+  "whats_new": [
+    "Clean YouTube Music recommendation engine with Spotify parity",
+    "Removed bloated multi-provider startup dialogs",
+    "Restored fast, clean search with local and online toggle",
+    "Permanent release signing key (fixes future package conflict issues)"
+  ],
   "download_url": {
-    "android": "https://github.com/agriculture287-hue/gen/releases/download/apk/GEN-Music-v2.0.4.apk",
+    "android": "https://github.com/anksarvesh-lgtm/gen-music/releases/download/v2.0.9/app-universal-gms-release.apk",
     "windows": "https://genmugic.vercel.app/download/genmusic-setup.exe",
     "macos": "https://genmugic.vercel.app/download/genmusic.dmg"
   }
